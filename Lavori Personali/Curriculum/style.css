@@ -12,14 +12,73 @@
     --bordoTondo: 20px;
 }
 
+
+
 *{
     margin: 0;
     padding: 0;
-
+    box-sizing: border-box;
     font-family: var(--fontPagina);
     color: var(--colore5);
 }
 
+body{
+    margin: 5px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    background-color: var(--colore3);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 30px;
+    height: 100%;
+    width: 25%;
+    min-width: 230px;
+}
+
+header>div{
+    padding: 10px;
+    width: 100%;
+    margin: 15px;
+}
+
+a>img{
+    height: 30px;
+    width: 30px;
+}
+
+.centrato{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scheda{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+hr{
+    background-color: var(--colore1);
+    height: 3px;
+    width: 100%;
+    border: none;
+}
+
+h1,h2{
+    text-transform: uppercase;
+    color: var(--colore1);
+}
 
 
 
